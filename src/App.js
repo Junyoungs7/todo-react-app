@@ -53,7 +53,7 @@ function App() {
   );
 
   let navigationBar = (
-    <AppBar position="static">
+    <AppBar position="static" style={{ backgroundColor: "#2E3B55" }}>
       <Toolbar>
         <Grid justifyContent="space-between" container>
           <Grid item>
